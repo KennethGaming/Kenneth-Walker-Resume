@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    text-align: start;
+    margin: 9%;
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+    
+}
+h1{
+    color:white
+}
+
+img{
+    width:600px;
+    height:600px;
+  float: right;
+    margin-left: 15px;
+   margin-top: -400px;
+   border: 10px solid #000;
+   
+   
+    
+}
+p{
+    color:white;
+    font-size: 20px;
+    width:650px
+
+}
+.navbar {
+  display: flex;
+  gap: 20px;
+
+}
+
+.nav-link {
+  color: #9ca3af;          /* light gray text */
+  text-decoration: none;  /* removes underline */
+  padding: 8px 16px;
+  border-radius: 999px;   /* pill shape */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #1f2933; /* dark pill */
+  color: white;
+  
+}
+
+h2{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

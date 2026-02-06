@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ background-image: url("https://static.vecteezy.com/system/resources/thumbnails/035/497/211/small/ai-generated-ambient-black-electronic-background-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Background image */
+.background {
+  position: fixed;
+  inset: 0;
+  background-image: url("background.jpg"); /* your image */
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  transform: scale(1.05);
+}
+
+/* Glass card */
+.card {
+  position: relative;
+  width: 320px;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* Profile circle */
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin: -70px auto 15px;
+  border-radius: 50%;
+  background: #4f46e5;
+  border: 3px solid rgba(255,255,255,0.5);
+}
+
+/* Name */
+.card h1 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Buttons */
+.link {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  text-decoration: none;
+  color: white;
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.link:hover {
+  background: rgba(255,255,255,0.35);
+}
+

@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color:white
+
+}
+p{
+    color:white
+    
+}
+
+.nav-link {
+  color: #9ca3af;          /* light gray text */
+  text-decoration: none;  /* removes underline */
+  padding: 8px 16px;
+  border-radius: 999px;   /* pill shape */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #1f2933; /* dark pill */
+  color: white;
+  
+}
+
